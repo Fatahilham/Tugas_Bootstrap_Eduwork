@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md py-4 mb-5 mt">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/favicon.png" alt="Logo" width="144" height="28" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kelas
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Private Mentoring</a></li>
+                <li><a class="dropdown-item" href="#">Bootcamp</a></li>
+                <li><a class="dropdown-item" href="#">Webinar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hubungi Admin</a>
+            </li>
+          </ul>
+          <div class="ms-5">
+            <button class="btn btn-primary btn-login">Login</button>
+            <button class="btn btn-primary btn-register">Register</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Content -->
+    <section class="container mt-5">
+      <div class="row">
+        <!-- Hero -->
+        <div class="col-4 me-5">
+          <h1>Pelatihan & Penyaluran Kerja.</h1>
+          <div class="row pt-3 mt-5">
+            <div class="col-1">
+              <span class="badge bg-primary rounded-pill">1</span>
+            </div>
+            <div class="col">
+              <h4>Daftar, Get Free Class!</h4>
+              <p>
+                Join komunitas belajar, dapatkan akses kelas & materi gratis
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <span class="badge bg-primary rounded-pill">2</span>
+            </div>
+            <div class="col">
+              <h4>Belajar Intensif</h4>
+              <p>
+                Belajar didampingi virtual assistant & mentor expert via grup &
+                1-on-1 zoom mentoring
+              </p>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <div class="col-1">
+              <span class="badge bg-primary rounded-pill">3</span>
+            </div>
+            <div class="col">
+              <h4>Penyaluran Kerja Dijamin</h4>
+              <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-primary me-5 w-50 h-25">
+              Daftar Gratis
+            </button>
+            <button class="btn btn-warning w-50 h-25">Konsultasi Dulu</button>
+          </div>
+          <p class="py-4" style="font-size: 16px">
+            <span class="fw-bold">54,857</span> Students &
+            <span class="fw-bold">126</span> Mentors has joined!
+          </p>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Image -->
+        <div class="gambar col-6">
+          <img src="img/t-aniq.png" alt="" width="508px" />
+        </div>
+        <!-- End Image -->
+      </div>
+    </section>
+    <!-- End Content -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
